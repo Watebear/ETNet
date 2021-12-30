@@ -3,7 +3,7 @@ Codes for Paper "ETNET: ENCODER-DECODER TEMPORAL NETWORK FOR FACIAL ACTION UNITS
 
 # Getting Started
 ## Installation
-The code runs in torch 1.1.0 and python3.8.5.
+The code runs in torch 1.10 and python3.8.5.
 Some packages like tqdm, numpy, etc. please install when debuging the codes.
 
 ## Dataset
