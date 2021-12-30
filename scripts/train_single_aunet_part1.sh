@@ -1,0 +1,14 @@
+python3 train_aunet_tensor.py \
+        --task_log_prefix './exps/aunet_tensor/' \
+        --pretrain_prefix './models/weights/DISFA_combine_2_3' \
+        --task_fold 'DISFA_combine_2_3' \
+        --train_path_prefix './data/list/DISFA_combine_2_3' \
+        --train_tensor_prefix './data/tensor/DISFA_combine_2_3' \
+        --test_path_prefix './data/list/DISFA_combine_2_3'  \
+        --test_tensor_prefix './data/tensor/DISFA_combine_2_3' \
+        --gpu_id 0 \
+        --train_batch_size 64 \
+        --eval_batch_size 400 \
+        --init_lr 0.1 \
+        --stepsize 5 \
+        --n_epochs 100
